@@ -5,10 +5,11 @@ body {
 
 img {
   height: 150px;
+  padding-left: 25px;
 }
 
 header {
-  padding: 15px 25px;
+  padding: 25px 25px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -24,13 +25,11 @@ li {
 }
 
 .xl-photo {
-  width: 100vh;
+  width: 100%;
   height: 100vh;
-  background-image: linear-gradient(to right, #654ea3, #eaafc8);
+  background-image: url("https://i.ibb.co/Jqsh0HS/IMG-1448.jpg");
   position: relative;
   z-index: -1;
-  margin: 0;
-  padding: 0;
 }
 
 .illustrations {
